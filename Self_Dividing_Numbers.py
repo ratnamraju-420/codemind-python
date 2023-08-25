@@ -12,7 +12,3 @@ for i in range(a,b+1):
         c+=1
     if c==d:
         print(i ,end=' ')
-                
-            
-            
-    
