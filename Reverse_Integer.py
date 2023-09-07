@@ -1,0 +1,16 @@
+n=int(input())
+if(n<0):
+    s=0
+    b=n-(n*2)
+    while(b!=0):
+        r=b%10
+        s=s*10+r
+        b//=10
+    print(s-(s*2)) 
+else:
+    s=0
+    while(n!=0):
+        r=n%10
+        s=s*10+r
+        n//=10
+    print(s)    
